@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message GraphResp
+{
+    bool resp = 1;
+    double aggrgate = 2;
+    uint32 timestamp = 3;
+};

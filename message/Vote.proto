@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Vote
+{
+    int32 serverId = 1;
+    int32 term = 2;
+    bool voteGranted = 3;
+}

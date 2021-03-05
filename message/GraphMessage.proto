@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message GraphMessage
+{
+    int64 sourceId = 1;
+    int64 targetId = 2;
+    double value = 3;
+};

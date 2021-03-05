@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message RegisterMessage
+{
+    int32 machineId = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message PSResponse
+{
+    bool resp = 1;
+    repeated uint64 keys = 2;
+    repeated double vals = 3;
+    uint32 timestamp = 4;
+}
